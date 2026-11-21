@@ -14,7 +14,7 @@ Luas/               — готовые скрипты
   skeet/            — под Gamesence (ui.new_*, entity.*, client.*, plist, cvar.*)
   skeet/patches/    — skeet-патчи (копии из Patches/)
 
-Patches/            — ВСЕ датированные дампы/патчи (имена и расширения как в оригинале)
+Patches/            — датированные патчи (имена и расширения как в оригинале)
                       + разбивка по читу в Luas/nl/patches и Luas/skeet/patches
 ```
 
@@ -33,13 +33,13 @@ Patches/            — ВСЕ датированные дампы/патчи (�
 | `nl/666DT.lua` | Neverlose | `ui.find`, `require("neverlose/...")`, `render.gradient` |
 | `nl/White strike.lua` | Neverlose | `ui.find`, `ui.get_icon`, `render.*`, `utils.*` |
 | `nl/viera utils.lua` | Neverlose | `ffi`, `ui.create`, `utils.get_netvar_offset` |
-| `nl/gh.lua` | Neverlose | NadeHelper (бывш. `2026-11-02_15-30-49-889.txt`): `menu.*`, `ui.create`, `db.*`, `utils.trace_hull` |
+| `nl/gh.lua` | Neverlose | NadeHelper (`menu.*`, `ui.create`, `db.*`, `utils.trace_hull`). Не патч — лежит в `Luas/`, из `Patches/` удалён |
 | `skeet/angelwings_full.lua` | Gamesence | `entity.get_prop`, `client.trace_bullet`, `plist`, `ui.new_checkbox` |
 | `skeet/luadeepseek predict.lua` | Gamesence | `ui.new_checkbox`, `cvar.cl_interp`, `client.latency` |
 
 ## Patches
 
-Датированные файлы в `Patches/`, имена и расширения как в оригинале:
+Датированные патчи в `Patches/`, имена и расширения как в оригинале:
 
 | Файл | Чит | Что внутри |
 |---|---|---|
@@ -48,7 +48,6 @@ Patches/            — ВСЕ датированные дампы/патчи (�
 | `2026-10-07_20-05-07-185-2.lua.txt` | **skeet** | хук движения/сворачивания меню по сырым адресам |
 | `2026-10-07_20-05-07-185-3.lua.txt` | **skeet** | большой Gamesence-скрипт (~640 КБ): `ui.reference`, `database.read/write`, `entity.get_prop` |
 | `2026-10-07_20-05-07-185-5.lua.txt` | **skeet** | «стрелять как Скала Джонсон» — запись `B8 01 00 00 00 C2 08 00` |
-| `2026-11-02_15-30-49-889.txt` | **nl** | Neverlose NadeHelper (`menu.*`, `ui.create`, `db.*`) |
 | `2026-11-02_15-31-42-127.txt` | **nl** | Neverlose backtrack-патч PAW (`ui.create("Rage", ...)`, `cvar.sv_maxunlag:float()`) |
 
 ### Копии по читам
@@ -60,7 +59,6 @@ Patches/            — ВСЕ датированные дампы/патчи (�
 |---|---|
 | `2026-10-07_20-05-07-185.lua`, `-1`, `-2`, `-3`, `-5` | `Luas/skeet/patches/` |
 | `2026-11-02_15-31-42-127.txt` | `Luas/nl/patches/` |
-| `2026-11-02_15-30-49-889.txt` | перенесён в `Luas/nl/gh.lua` (копии в `nl/patches` нет, оригинал в `Patches/`) |
 
 ### Что удалено как копирка
 
@@ -69,4 +67,4 @@ Patches/            — ВСЕ датированные дампы/патчи (�
 | `Luas/skeet/patches/2026-10-07_20-05-07-185-4.lua.txt` | побайтовый дубль `-3` (md5 `12a2c7ce…`) |
 | `Luas/skeet/patches/2026-10-07_20-05-07-185.lua.txt` | побайтовый дубль `2026-10-07_20-05-07-185.lua` (md5 `b4007d97…`) |
 
-В `Patches/` дублей нет: там осталось 7 файлов, все с разным содержимым.
+В `Patches/` дублей нет: там осталось 6 файлов, все с разным содержимым.

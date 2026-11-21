@@ -33,7 +33,7 @@ Patches/            — датированные патчи (имена и ра�
 | `nl/666DT.lua` | Neverlose | `ui.find`, `require("neverlose/...")`, `render.gradient` |
 | `nl/White strike.lua` | Neverlose | `ui.find`, `ui.get_icon`, `render.*`, `utils.*` |
 | `nl/viera utils.lua` | Neverlose | `ffi`, `ui.create`, `utils.get_netvar_offset` |
-| `nl/персистанс.lua` | Neverlose | persistence-фреймворк (`ui.find`, `persistence/ui/menu`, `ffi`), бывш. загруженный `2026-10-22_14-47-07-663.txt` |
+| `nl/persistence.lua` | Neverlose | persistence-фреймворк (`ui.find`, `persistence/ui/menu`, `ffi`), бывш. загруженный `2026-10-22_14-47-07-663.txt` |
 | `nl/gh.lua` | Neverlose | NadeHelper (`menu.*`, `ui.create`, `db.*`, `utils.trace_hull`). Не патч — лежит в `Luas/`, из `Patches/` удалён |
 | `skeet/angelwings_full.lua` | Gamesence | `entity.get_prop`, `client.trace_bullet`, `plist`, `ui.new_checkbox` |
 | `skeet/luadeepseek predict.lua` | Gamesence | `ui.new_checkbox`, `cvar.cl_interp`, `client.latency` |
@@ -74,4 +74,4 @@ Patches/            — датированные патчи (имена и ра�
 
 | Удалено | Потому что |
 |---|---|
-| `panchan cracked.lua` (был в корне, загружен через GitHub) | побайтовый дубль `Luas/all in one.lua` (md5 `12a2c7ce…`) |
+| `panchan cracked.lua` (был в корне, загружен через GitHub) | побайтовый дубль `Luas/panchan.lua` (md5 `12a2c7ce…`) |

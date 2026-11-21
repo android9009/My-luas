@@ -37,7 +37,7 @@ Patches/            — датированные патчи (имена и ра�
 | `nl/gh.lua` | Neverlose | NadeHelper (`menu.*`, `ui.create`, `db.*`, `utils.trace_hull`). Не патч — лежит в `Luas/`, из `Patches/` удалён |
 | `skeet/angelwings_full.lua` | Gamesence | `entity.get_prop`, `client.trace_bullet`, `plist`, `ui.new_checkbox` |
 | `skeet/luadeepseek predict.lua` | Gamesence | `ui.new_checkbox`, `cvar.cl_interp`, `client.latency` |
-| `all in one.lua` | Gamesense | большой all-in-one скрипт (~640 КБ, бывш. `2026-10-07_20-05-07-185-3.lua`): анти-аим, визуал, статистика, `database`, `sv_maxusrcmdprocessticks` |
+| `panchan.lua` | Gamesense | Panchan, большой all-in-one скрипт (~640 КБ, бывш. `2026-10-07_20-05-07-185-3.lua` и `all in one.lua`): анти-аим, визуал, статистика, `database`, `sv_maxusrcmdprocessticks` |
 
 ## Patches
 

@@ -33,6 +33,7 @@ Patches/            — ВСЕ датированные дампы/патчи (�
 | `nl/666DT.lua` | Neverlose | `ui.find`, `require("neverlose/...")`, `render.gradient` |
 | `nl/White strike.lua` | Neverlose | `ui.find`, `ui.get_icon`, `render.*`, `utils.*` |
 | `nl/viera utils.lua` | Neverlose | `ffi`, `ui.create`, `utils.get_netvar_offset` |
+| `nl/gh.lua` | Neverlose | NadeHelper (бывш. `2026-11-02_15-30-49-889.txt`): `menu.*`, `ui.create`, `db.*`, `utils.trace_hull` |
 | `skeet/angelwings_full.lua` | Gamesence | `entity.get_prop`, `client.trace_bullet`, `plist`, `ui.new_checkbox` |
 | `skeet/luadeepseek predict.lua` | Gamesence | `ui.new_checkbox`, `cvar.cl_interp`, `client.latency` |
 
@@ -58,7 +59,8 @@ Patches/            — ВСЕ датированные дампы/патчи (�
 | В `Patches/` | Копия для чита |
 |---|---|
 | `2026-10-07_20-05-07-185.lua`, `-1`, `-2`, `-3`, `-5` | `Luas/skeet/patches/` |
-| `2026-11-02_15-30-49-889.txt`, `2026-11-02_15-31-42-127.txt` | `Luas/nl/patches/` |
+| `2026-11-02_15-31-42-127.txt` | `Luas/nl/patches/` |
+| `2026-11-02_15-30-49-889.txt` | перенесён в `Luas/nl/gh.lua` (копии в `nl/patches` нет, оригинал в `Patches/`) |
 
 ### Что удалено как копирка
 
